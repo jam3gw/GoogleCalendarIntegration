@@ -9,6 +9,10 @@ jspm_packages/
 .env.test.local
 .env.production.local
 
+# Google API tokens
+token.json
+credentials.json
+
 # Build outputs
 dist/
 build/
@@ -39,3 +43,23 @@ coverage/
 # OS specific files
 .DS_Store
 Thumbs.db 
+
+# Python specific
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.egg-info/
+.installed.cfg
+*.egg
