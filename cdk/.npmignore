@@ -1,0 +1,10 @@
+*.ts
+!*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Lambda package directory
+../lambda-package/ 
